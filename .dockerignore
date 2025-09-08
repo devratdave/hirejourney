@@ -1,0 +1,78 @@
+# ====================
+# General
+# ====================
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+README.md
+LICENSE
+*.md
+
+# ====================
+# Node.js / Next.js
+# ====================
+node_modules
+.next
+out
+dist
+build
+.npm
+.yarn
+.yarn-cache
+.pnp.*
+.pnp.js
+*.tsbuildinfo
+
+# ====================
+# Python / FastAPI
+# ====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.pyre/
+.dmypy.json
+.pytype/
+*.egg-info
+.eggs
+
+# Virtual envs
+venv
+.venv
+env
+ENV
+env.bak
+
+# ====================
+# Logs & temp files
+# ====================
+*.log
+*.tmp
+*.temp
+*.pid
+*.seed
+*.swp
+*.swo
+*.bak
+
+# ====================
+# OS & IDE
+# ====================
+.DS_Store
+.idea
+.vscode
+*.iml
+
+# ====================
+# Database / Storage
+# ====================
+postgres_data
+*.sqlite3
+*.rdb
+dump.rdb
